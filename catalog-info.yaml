@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "snd-hdspe"
   title: "snd-hdspe"
-  description: "Fork av RME ljudkorts driver för linux."
+  description: "Fork av RME ljudkortsdriver för linux."
   annotations:
     frekvens.sverigesradio.se/from-template: frekvens-create-catalog-info
 spec:
@@ -17,7 +17,7 @@ kind: System
 metadata:
   name: snd-hdspe
   title: snd-hdspe
-  description: Fork av RME ljudkorts driver för linux.
+  description: Fork av RME ljudkortsdriver för linux.
 spec:
   type: service
   owner: group:default/ljudcore

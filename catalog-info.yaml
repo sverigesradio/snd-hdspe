@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "snd-hdspe"
+  title: "snd-hdspe"
+  description: "Fork av RME ljudkortsdriver för linux."
+  annotations:
+    frekvens.sverigesradio.se/from-template: frekvens-create-catalog-info
+spec:
+  type: service
+  owner: group:default/ljudcore
+  system: snd-hdspe
+  lifecycle: production
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: snd-hdspe
+  title: snd-hdspe
+  description: Fork av RME ljudkortsdriver för linux.
+spec:
+  type: service
+  owner: group:default/ljudcore
